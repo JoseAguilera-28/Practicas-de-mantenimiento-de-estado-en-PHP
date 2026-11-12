@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Práctica 1</title>
+  </head>
+  <body>
+    <form action="inspector.php" method="post">
+      <label for="mensaje">Mensaje por post :</label>
+      <input type="text" id="mensaje" name="mensaje" value="hola" />
+      <button type="submit">Enviar por POST</button>
+    </form>
+
+    <hr />
+
+    <p>
+      <a href="inspector.php?mensaje=hola">Enviar mensaje hola por GET</a>
+    </p>
+  </body>
+</html>
